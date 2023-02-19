@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <nav class="nav">
+        <a href="index.html">
+          <h2>LumenSchools</h2>
+        </a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="registerSchool.html">Register School</a></li>
+          <li><a href="registerStudent.html">Register Student</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+      </nav>
+      <form class="form">
+        <div class="form-divide">
+          <div>
+            <label for="sName">School Name</label>
+            <input type="text" class="inputs" id="sName" />
+          </div>
+          <div>
+            <label for="sEmail">Email Address</label>
+            <input type="email" class="inputs" id="sEmail" />
+          </div>
+          <div>
+            <label for="sPhone">Phone Number</label>
+            <input type="text" class="inputs" id="sPhone" />
+          </div>
+          <div>
+            <label for="sState">State</label>
+            <input type="text" class="inputs" id="sState" />
+          </div>
+        </div>
+        <div>
+          <label for="sAddress">Address</label>
+          <textarea class="inputs" id="sAddress"></textarea>
+        </div>
+        <div>
+          <button id="btn">Submit</button>
+        </div>
+      </form>
+    </main>
+  </body>
+  <script src="./registerSchool.js"></script>
+</html>
